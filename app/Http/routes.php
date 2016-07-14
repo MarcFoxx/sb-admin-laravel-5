@@ -72,7 +72,7 @@ Route::get('/leadInput', function()
 	return View::make('leadInput');
 });
 
-Route::get('/style', function()
+Route::get('/styles', function()
 {
 	return View::make('styles');
 });

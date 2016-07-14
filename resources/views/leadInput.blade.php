@@ -8,7 +8,7 @@
                 </div>
 
              <div class="col-lg-4">
-                        <?php echo $leadEntryForm ?>
+                      
 
 
                         <div class="input-group">
