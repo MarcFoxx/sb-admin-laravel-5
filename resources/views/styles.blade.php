@@ -6,9 +6,8 @@
 	<li><a href="{{ url ('buttons') }}">Buttons</a></li>
 	<li><a href="{{ url ('grid') }}">Grid</a></li>
 	<li><a href="{{ url ('icons') }}">Icons</a></li>
-	<li><a href="{{ url ('mcharts') }}">Charts</a></li>
-	<li><a href="{{ url ('stats') }}">Stats</a></li>
-	<li><a href="{{ url ('table') }}">Table</a></li>
+	<li><a href="{{ url ('charts') }}">Charts</a></li>
+	<li><a href="{{ url ('tables') }}">Table</a></li>
 	
 <ul>
            
