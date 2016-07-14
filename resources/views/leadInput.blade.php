@@ -5,10 +5,9 @@
 
   <div class="col-lg-6">
                     <h2>Enter Lead into Infusionsoft</h2>
-                </div>
-
-             <div class="col-lg-4">
+              
                       
+                      <?php echo $leadEntryForm ?>
 
 
                         <div class="input-group">
@@ -36,6 +35,28 @@
                         <div class="btn-center">
                           <button type="submit" class="btn btn-primary" value="Submit" aria-expanded="false">Connect</button>
                         </div>
+</div> <!-- close responsive column --> 
+
+
+  <div class="col-lg-6">
+                    <h2>Scan Company by Website</h2>
+              
+                          <div class="input-group">
+                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope fa-2"></i></span>
+                          <input type="text" class="form-control" placeholder="Email Address" aria-describedby="basic-addon1" id="inf_field_Email" name="inf_field_Email" required="required" validate="">
+                          </div>
+
+                          <div class="input-group">
+                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-globe fa-2"></i></span>
+                          <input type="text" class="form-control" placeholder="Website" aria-describedby="basic-addon1" id="inf_field_Website" name="inf_field_Website" required="required" validate="">
+                          </div>
+
+                        <div class="btn-center">
+                          <button type="submit" class="btn btn-primary disabled" value="Submit" aria-expanded="false">Scan</button>
+                        </div>
+</div> <!-- close responsive column --> 
+
+
 
             
 @stop
