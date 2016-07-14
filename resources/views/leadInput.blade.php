@@ -7,7 +7,7 @@
                     <h2>Enter Lead into Infusionsoft</h2>
               
                       
-                      <?php echo $leadEntryForm ?>
+                      {{ $leadEntryForm }}
 
 
                         <div class="input-group">
