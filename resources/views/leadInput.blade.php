@@ -1,7 +1,14 @@
 @extends('layouts.dashboard')
 @section('page_heading','Manual Lead Entry')
 @section('section')
-           
+
+$leadEntryForm = <<<EOD
+<form accept-charset="UTF-8" action="https://price.infusionsoft.com/app/form/process/4f5ffd11c116ccb302e63a61f65dc795" class="infusion-form" method="POST">
+<input name="inf_form_xid" type="hidden" value="4f5ffd11c116ccb302e63a61f65dc795" />
+<input name="inf_form_name" type="hidden" value="Contact Form (Milestones)" />
+<input name="infusionsoft_version" type="hidden" value="1.45.0.48" />
+EOD;           
+
 
   <div class="col-lg-6">
                     <h2>Enter Lead into Infusionsoft</h2>
