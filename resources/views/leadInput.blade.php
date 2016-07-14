@@ -12,11 +12,6 @@
 <input name="infusionsoft_version" type="hidden" value="1.45.0.48" />
 
 
-<div class="form-group input-group">
-                <span class="input-group-addon">@</span>
-                <input class="form-control" placeholder="Username" type="text">
-            </div>
-
 
                         <div class="form-group input-group">
                           <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user fa-2"></i></span>
