@@ -7,7 +7,7 @@
 	<title>Laravel</title>
 
 	<link href="/css/app.css" rel="stylesheet">
-	<link href="/css/funnelLabs.css" rel="stylesheet">
+
 
 
 	<!-- Fonts -->
