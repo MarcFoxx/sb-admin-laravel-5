@@ -67,6 +67,16 @@ Route::get('/blank', function()
 	return View::make('blank');
 });
 
+Route::get('/leadInput', function()
+{
+	return View::make('leadInput');
+});
+
+Route::get('/style', function()
+{
+	return View::make('styles');
+});
+
 Route::get('/login', function()
 {
 	return View::make('login');
