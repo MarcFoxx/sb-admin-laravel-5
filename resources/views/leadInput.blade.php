@@ -3,7 +3,7 @@
 @section('section')
 
           
-  <div class="col-lg-6">
+  <div class="col-lg-4">
                     <h2>Enter Lead into Infusionsoft</h2>
               
 <form accept-charset="UTF-8" action="https://price.infusionsoft.com/app/form/process/4f5ffd11c116ccb302e63a61f65dc795" class="infusion-form" method="POST">
